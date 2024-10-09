@@ -4,6 +4,7 @@
 This repository contains a collection of challenges and projects from the DIO technology training platfor.
 
 ## Projects
+- `ranked-matches-calculator/` : A script to calculate a player's rank based on the number of wins and losses in ranked matches.
 - `hero-level-classifier/` : This script classifies a hero's level based on their experience points (XP).
 
 ## Installation

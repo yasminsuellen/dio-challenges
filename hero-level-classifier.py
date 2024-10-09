@@ -17,17 +17,19 @@ def classify_level(xp):
     else:
         return "Radiant"
 
+
 # Main function
 def main():
     # Store the name and amount of experience of the hero
     name = input("Enter the hero's name: ")
     xp = int(input("Enter the hero's experience points (XP): "))
-    
+
     # Classify the hero's level
     level = classify_level(xp)
-    
+
     # Display the output message
     print(f"The hero named {name} is at the level of {level}.")
+
 
 # Execute the main function
 if __name__ == "__main__":
